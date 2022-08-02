@@ -1,0 +1,45 @@
+.navbar-container {
+  background: #0365f4;
+  color: #fff;
+  padding: 20px 0;
+}
+.navbar-wrapper {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+}
+.home-link {
+  font-family: "Fascinate", cursive;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.nav-btn {
+  text-decoration: none;
+  color: #0365f4;
+}
+.nav-btn > button {
+  margin-top: 4px;
+  margin-left: 13px;
+  color: #0365f4;
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav-btn > button:hover {
+  color: #0365f4;
+  background-color: seashell;
+}
+.search-div {
+  margin: auto 0;
+}
+.search {
+  height: 30px;
+  width: 200px;
+  padding: 2px;
+  outline: none;
+}
