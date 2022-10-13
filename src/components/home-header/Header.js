@@ -4,13 +4,10 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div>
-      <div className="header">
-        <img className="hero-img" src={hero} alt="pic" />
+    <div className="home-header">
         <h3>
-          CATCH ALL THE BEST AND LATEST MOVIES RIGHT HERE ON THE MOVIE BOX
+          CATCH ALL THE BEST AND LATEST MOVIES RIGHT HERE ON THE <span className="m-box">MOVIE BOX</span>
         </h3>
-      </div>
     </div>
   );
 };

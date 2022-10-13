@@ -25,7 +25,7 @@ const MoviesRow = ({ movieType }) => {
           </div>
         ) : (
           <div className="home-movies">
-            {(data.results?.slice(0, 4) ?? []).map((movie) => {
+            {data.results?.slice(0, 4).map((movie) => {
               return (
                 <div>
                   <MovieCard movie={movie} movieType={movieType} />
