@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { APIKEYPARAM, BASEURL } from "../constants";
 
 const useFetch = (requestParam, pageNo) => {
@@ -24,7 +24,7 @@ const useFetch = (requestParam, pageNo) => {
         setIsloading(false);
         setIsError(err.message);
       });
-  }, [requestParam, pageNo]);
+  }, [requestParam, pageNo, url]);
   return { data, isloading, isError };
 };
 

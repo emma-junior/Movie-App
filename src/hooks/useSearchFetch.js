@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { APIKEYPARAM } from "../constants";
 
 const useSearchFetch = (searchParam) => {
@@ -24,7 +24,7 @@ const useSearchFetch = (searchParam) => {
         setIsloading(false);
         setIsError(err.message);
       });
-  }, [searchParam]);
+  }, [searchParam, url]);
   return { data, isloading, isError };
 };
 
