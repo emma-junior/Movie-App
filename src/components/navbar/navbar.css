@@ -15,6 +15,9 @@
   text-decoration: none;
   color: #fff;
 }
+.navbar-btns {
+  display: flex;
+}
 .nav-btn {
   text-decoration: none;
   color: #0365f4;
@@ -42,4 +45,18 @@
   width: 200px;
   padding: 2px;
   outline: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+  .navbar-wrapper {
+    width: 95%;
+  }
+  .home-link {
+    font-size: 15px;
+  }
+  .nav-btn>button {
+    font-size: 15px;
+    padding: 4px 6px;
+    border-radius: 5px;
+  }
 }

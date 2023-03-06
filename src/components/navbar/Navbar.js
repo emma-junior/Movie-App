@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { useGlobalContext } from "../../hooks/Context";
 import "./navbar.css";
 
 const Navbar = () => {
-  // const { pageNo, setPageNo } = useGlobalContext();
   return (
     <div className="navbar-container">
       <div className="navbar-wrapper">

@@ -25,3 +25,10 @@
   color: #0365f4;
   font-family: "Fascinate", cursive;
 }
+
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+  .home-header>h3 {
+    width: 90%;
+    font-size: 37px;
+  }
+}
