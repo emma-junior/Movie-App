@@ -1,0 +1,116 @@
+.categories-search {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin: 25px auto;
+}
+
+.categories-btn {
+    display: flex;
+}
+
+.popular {
+    background: rgb(86, 86, 184);
+    padding: 3px 6px;
+    margin-right: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.popular-active {
+    background: rgb(156, 156, 241);
+}
+
+.popular:hover {
+    background: rgb(156, 156, 241);
+}
+
+.top-rated {
+    background: rgb(221, 221, 73);
+    padding: 3px 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.toprated-active {
+    background-color: rgb(216, 216, 153);
+}
+
+.top-rated:hover {
+    background-color: rgb(216, 216, 153);
+}
+
+.now-playing {
+    background-color: rgb(236, 68, 68);
+    padding: 3px 6px;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.nowplaying-active {
+    background-color: rgb(214, 124, 124);
+}
+
+.now-playing:hover {
+    background-color: rgb(214, 124, 124);
+}
+
+.upcoming {
+    background-color: rgb(23, 139, 23);
+    padding: 3px 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.upcoming-active {
+    background-color: rgb(133, 231, 133);
+}
+
+.upcoming:hover {
+    background-color: rgb(133, 231, 133);
+}
+.search-div>button {
+    background: #0365f4;
+    padding: 6px 12px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+    .categories-search {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    
+    .categories-btn {
+        flex-wrap: wrap;
+    }
+    
+    .search-div>button {
+        margin-top: 10px;
+    }
+    .popular,
+    .top-rated,
+    .now-playing,
+    .upcoming {
+        font-size: 13px;
+        margin-right: 7px;
+    }
+}

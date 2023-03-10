@@ -1,9 +1,9 @@
 import React from "react";
 import { useGlobalContext } from "../../hooks/Context";
-// import { Link } from "react-router-dom";
 import Pagination from "@mui/material/Pagination";
+import "./pagination.css";
 
-const PaginationBtns = ({ movieType }) => {
+const PaginationBtns = () => {
   const { pageNo, setPageNo } = useGlobalContext();
 
   const handleChange = (event, value) => {
@@ -12,14 +12,12 @@ const PaginationBtns = ({ movieType }) => {
   };
   return (
     <div className="pagination-wrapper">
-      {/* <Link to={`/${movieType}/${pageNo}`}> */}
       <Pagination
         count={20}
         page={pageNo}
         onChange={handleChange}
         color="primary"
       />
-      {/* </Link> */}
     </div>
   );
 };

@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { useGlobalContext } from "../../hooks/Context";
+import "./categoriesbtn.css";
 
 const CategoriesBtn = ({ movieType }) => {
-  // const { pageNo, setPageNo } = useGlobalContext();
   return (
     <div className="categories-search">
       <div className="categories-btn">
@@ -45,7 +44,6 @@ const CategoriesBtn = ({ movieType }) => {
         </Link>
       </div>
       <div className="search-div">
-        {/* <input type="search" className="search" placeholder="Search..." /> */}
         <Link className="search-div" to="/search">
           <button>Find Movie</button>
         </Link>

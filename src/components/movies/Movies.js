@@ -29,7 +29,7 @@ const Movies = ({ movieType }) => {
           })}
         </div>
       )}
-      <PaginationBtns movieType={movieType} />
+      <PaginationBtns />
     </div>
   );
 };
