@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Likeicon from "./Likeicon";
 import { BiTime } from "react-icons/bi";
+import "./description.css";
 
 const Description = ({ data }) => {
   const [colorChange, setColorChange] = useState("grey");
@@ -16,12 +17,10 @@ const Description = ({ data }) => {
     <div className="desc">
       <p className="overview">{data?.overview}</p>
       <div className="like-runtime">
-        <div className="like-dive">
-          <div className="like-bg">
-            <p onClick={likeHandler}>
-              <Likeicon colorChange={colorChange} />
-            </p>
-          </div>
+        <div className="like-bg">
+          <p onClick={likeHandler}>
+            <Likeicon colorChange={colorChange} />
+          </p>
         </div>
         <div className="runtime">
           <p className="runtime-icon">

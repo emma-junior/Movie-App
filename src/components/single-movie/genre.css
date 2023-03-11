@@ -1,0 +1,139 @@
+.fantasy {
+    color: green;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid green;
+    margin: 3px;
+}
+
+.action {
+    color: rgb(196, 196, 20);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(196, 196, 20);
+    margin: 3px;
+}
+
+.adventure {
+    color: blue;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    margin: 3px;
+}
+
+.comedy {
+    color: greenyellow;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid greenyellow;
+    margin: 3px;
+}
+
+.romance {
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.drama {
+    color: brown;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid brown;
+    margin: 3px;
+}
+
+.family {
+    color: gold;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid gold;
+    margin: 3px;
+}
+
+.science-fiction {
+    color: #145da0;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid #145da0;
+    margin: 3px;
+}
+
+.thriller {
+    color: rgb(255, 102, 0);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 102, 0);
+    margin: 3px;
+}
+
+.animation {
+    color: rgb(216, 8, 216);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(175, 7, 175);
+    margin: 3px;
+}
+
+.horror {
+    color: rgb(233, 52, 52);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(194, 10, 10);
+    margin: 3px;
+}
+
+.crime {
+    color: rgb(197, 221, 59);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(151, 172, 37);
+    margin: 3px;
+}
+
+.war {
+    color: #394a51;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid #5c6d74;
+    margin: 3px;
+}
+
+.history {
+    color: #f67280;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid #da848c;
+    margin: 3px;
+}

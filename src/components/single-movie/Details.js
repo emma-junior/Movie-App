@@ -1,4 +1,5 @@
 import React from "react";
+import "./details.css";
 
 const Details = ({ data }) => {
   return (
@@ -11,11 +12,11 @@ const Details = ({ data }) => {
               <div className="">
                 <p className="company-flag">
                   {company?.name}
-                  <img
-                    className="country-flag"
-                    src={`https://countryflagsapi.com/svg/${company?.origin_country}`}
-                    alt="flag"
-                  />
+                  {/* <img
+                      className="country-flag"
+                      src={`https://countryflagsapi.com/svg/${company?.origin_country}`}
+                      alt="flag"
+                    /> */}
                 </p>
               </div>
             </div>
@@ -38,7 +39,7 @@ const Details = ({ data }) => {
         <p>{data?.release_date}</p>
       </div>
       <div className="line"></div>
-      <div className="detail-wrapper">
+      <div className="vote-wrapper">
         <div className="vote-ave">
           <label for="vote">Vote Average:</label>
           <progress id="vote" value={data?.vote_average} max="10">
