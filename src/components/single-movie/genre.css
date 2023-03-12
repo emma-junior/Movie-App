@@ -137,3 +137,13 @@
     border: 2px solid #da848c;
     margin: 3px;
 }
+
+.mystery {
+    color: rgb(194, 59, 194);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(156, 24, 156);
+    margin: 3px;
+}

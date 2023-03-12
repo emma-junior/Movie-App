@@ -19,7 +19,7 @@ const Genre = ({ genre }) => {
           genre?.name === "Crime" && "crime"
         } ${genre?.name === "History" && "history"} ${
           genre?.name === "War" && "war"
-        }`}
+        } ${genre?.name === "Mystery" && "mystery"}`}
       >
         {genre?.name}
       </p>
