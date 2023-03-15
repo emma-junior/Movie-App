@@ -1,0 +1,36 @@
+.category-viewall {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 15px auto 0;
+}
+.link {
+    text-decoration: none;
+    color: #0365f4;
+    font-weight: bold;
+}
+.link:hover {
+    color: #3e84ec;
+}
+.home-movies {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    .category-viewall {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+    .category-viewall {
+        width: 85%;
+    }
+    .home-movies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+    }
+}

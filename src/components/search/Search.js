@@ -16,7 +16,7 @@ const Search = () => {
     setSearchedMovie(query);
     setQuery("");
   };
-  console.log(data);
+  console.log(data?.results.length);
   return (
     <div className="search-page">
       <div className="search-img">
@@ -31,25 +31,25 @@ const Search = () => {
         </div>
       </div>
       <div>
-        {data?.results ? (
-          <div className="search-container">
-            {isloading ? (
-              <div>
-                <Loading />
-              </div>
-            ) : (
-              <div className="search-wrapper">
-                {(data.results ?? []).map((movie) => {
-                  return (
-                    <div className="search-card">
-                      <MovieCard movie={movie} />
-                    </div>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        ) : (
+        <div className="search-container">
+          {isloading && (
+            <div>
+              <Loading />
+            </div>
+          )}
+          {data?.results && (
+            <div className="search-wrapper">
+              {(data.results ?? []).map((movie) => {
+                return (
+                  <div className="search-card">
+                    <MovieCard movie={movie} />
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+        {data?.results.length < 1 && (
           <div className="search-movie">
             <h2>search movie</h2>
             <p>

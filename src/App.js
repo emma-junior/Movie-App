@@ -1,7 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
 import ScrollToTop from "./components/Scrolltotop";
-import Home from "./pages/Home";
+import Home from "./pages/Homepage/Home";
 import Moviedetails from "./pages/Moviedetails";
 import Nowplayingpage from "./pages/Moviespage/Nowplayingpage";
 import Popularpage from "./pages/Moviespage/Popularpage";
@@ -15,6 +17,7 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/popular" element={<Popularpage />} />
@@ -25,6 +28,7 @@ function App() {
           <Route path="/tvshows" element={<Tvshowspage />} />
           <Route path="/search" element={<SearchPage />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

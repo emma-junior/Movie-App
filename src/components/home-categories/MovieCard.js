@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./categories.css";
+// import "./categories.css";
+import "./moviecard.css";
 
-const MovieCard = ({ movie, movieType }) => {
+const MovieCard = ({ movie }) => {
   return (
     <div>
       <div className="homemovies-wrapper">

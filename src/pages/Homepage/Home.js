@@ -1,14 +1,12 @@
 import React from "react";
-import Footer from "../components/footer/Footer";
-import MoviesRow from "../components/home-categories/MoviesRow";
-import Hometvshows from "../components/home-categories/Hometvshows";
-import Header from "../components/home-header/Header";
-import Navbar from "../components/navbar/Navbar";
+import MoviesRow from "../../components/home-categories/MoviesRow";
+import Hometvshows from "../../components/home-categories/Hometvshows";
+import Header from "../../components/home-header/Header";
+import "./home.css";
 
 const Home = () => {
   return (
     <div className="movies-homepage">
-      <Navbar />
       <Header />
       <h3>MOVIES</h3>
       <div>
@@ -20,7 +18,6 @@ const Home = () => {
         </div>
         <Hometvshows />
       </div>
-      <Footer />
     </div>
   );
 };
