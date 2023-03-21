@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import useSearchFetch from "../../hooks/useSearchFetch";
-import searchPageImg from "../../images/searchpage.jpg";
+import searchPageImg from "../../images/searchpage.webp";
 import MovieCard from "../home-categories/MovieCard";
 import Loading from "../Loading";
 import { FaSearch } from "react-icons/fa";
