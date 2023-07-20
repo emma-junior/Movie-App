@@ -5,18 +5,13 @@ const Details = ({ data }) => {
   return (
     <div>
       <div className="pr-container">
-        {/* <p className="detail">Production Companies</p> */}
-        {data.production_companies?.map((company) => {
+        {data.production_companies?.map((company, index) => {
           return (
             <div key={company?.id} className="company">
               <div className="">
                 <p className="company-flag">
-                  {company?.name}
-                  {/* <img
-                      className="country-flag"
-                      src={`https://countryflagsapi.com/svg/${company?.origin_country}`}
-                      alt="flag"
-                    /> */}
+                  {company?.name}{" "}
+                  {index < data.production_companies.length - 1 ? " + " : ""}
                 </p>
               </div>
             </div>
